@@ -1,0 +1,9 @@
+E:\Documents\GitHub\Private\Hogeschool Rotterdam\INFMAN01-1\Parkeergarages Crawler\Parkeergarages Crawler\bin\Debug\Parkeergarages Crawler.exe.config
+E:\Documents\GitHub\Private\Hogeschool Rotterdam\INFMAN01-1\Parkeergarages Crawler\Parkeergarages Crawler\bin\Debug\Parkeergarages Crawler.exe
+E:\Documents\GitHub\Private\Hogeschool Rotterdam\INFMAN01-1\Parkeergarages Crawler\Parkeergarages Crawler\bin\Debug\Parkeergarages Crawler.pdb
+E:\Documents\GitHub\Private\Hogeschool Rotterdam\INFMAN01-1\Parkeergarages Crawler\Parkeergarages Crawler\obj\Debug\Parkeergarages Crawler.csprojResolveAssemblyReference.cache
+E:\Documents\GitHub\Private\Hogeschool Rotterdam\INFMAN01-1\Parkeergarages Crawler\Parkeergarages Crawler\obj\Debug\Parkeergarages Crawler.exe
+E:\Documents\GitHub\Private\Hogeschool Rotterdam\INFMAN01-1\Parkeergarages Crawler\Parkeergarages Crawler\obj\Debug\Parkeergarages Crawler.pdb
+E:\Documents\GitHub\Private\Hogeschool Rotterdam\INFMAN01-1\Parkeergarages Crawler\Parkeergarages Crawler\bin\Debug\Newtonsoft.Json.dll
+E:\Documents\GitHub\Private\Hogeschool Rotterdam\INFMAN01-1\Parkeergarages Crawler\Parkeergarages Crawler\bin\Debug\Newtonsoft.Json.xml
+E:\Documents\GitHub\Private\Hogeschool Rotterdam\INFMAN01-1\Parkeergarages Crawler\Parkeergarages Crawler\bin\Debug\MySql.Data.dll

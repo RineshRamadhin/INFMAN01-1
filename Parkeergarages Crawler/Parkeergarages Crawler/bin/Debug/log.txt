@@ -1,0 +1,478 @@
+19-02-2016 16:15:03.023 - START   - Start Crawler
+19-02-2016 16:15:03.054 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1
+19-02-2016 16:15:03.373 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:03.379 - MESSAGE - processing garages
+19-02-2016 16:15:03.429 - MESSAGE - processing garage: P06 - Sluisstraat
+19-02-2016 16:15:03.435 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/8d85bbdb-8bbd-4a24-b35f-85f21186ec04
+19-02-2016 16:15:03.491 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:03.495 - MESSAGE - retrieving json object from: https://npropendata.rdw.nl/parkingdata/v2/static/8d85bbdb-8bbd-4a24-b35f-85f21186ec04
+19-02-2016 16:15:03.763 - FAILED  - failed to get json object
+19-02-2016 16:15:03.779 - MESSAGE - saving garage data
+19-02-2016 16:15:03.816 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:03.817 - MESSAGE - garage processed: P06 - Sluisstraat
+19-02-2016 16:15:03.817 - MESSAGE - processing garage: 3 - Burcht
+19-02-2016 16:15:03.832 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/21b0388a-56f7-4cba-8fd3-4a1c914f5fe2
+19-02-2016 16:15:03.917 - FAILED  - failed to get json object
+19-02-2016 16:15:03.917 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/21b0388a-56f7-4cba-8fd3-4a1c914f5fe2
+19-02-2016 16:15:03.979 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:03.979 - MESSAGE - saving garage data
+19-02-2016 16:15:04.017 - FAILED  - no garage data to save
+19-02-2016 16:15:04.017 - MESSAGE - garage processed: 3 - Burcht
+19-02-2016 16:15:04.017 - MESSAGE - processing garage: P01 - Stationsplein
+19-02-2016 16:15:04.017 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/45434989-3252-4c85-8731-c856b02c390c
+19-02-2016 16:15:04.095 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:04.095 - MESSAGE - retrieving json object from: https://npropendata.rdw.nl/parkingdata/v2/static/45434989-3252-4c85-8731-c856b02c390c
+19-02-2016 16:15:04.195 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:04.212 - MESSAGE - saving garage data
+19-02-2016 16:15:04.216 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:04.217 - MESSAGE - garage processed: P01 - Stationsplein
+19-02-2016 16:15:04.217 - MESSAGE - processing garage: Jaarbeurs P3 - Jaarbeurs P3
+19-02-2016 16:15:04.217 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/9064b206-7e62-402d-ae62-f25a0e47571b
+19-02-2016 16:15:04.264 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:04.280 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/9064b206-7e62-402d-ae62-f25a0e47571b
+19-02-2016 16:15:04.333 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:04.333 - MESSAGE - saving garage data
+19-02-2016 16:15:04.333 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:04.348 - MESSAGE - garage processed: Jaarbeurs P3 - Jaarbeurs P3
+19-02-2016 16:15:04.348 - MESSAGE - processing garage: P03 - Dek Stadspoort
+19-02-2016 16:15:04.348 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/5829fb06-ee4a-4762-946c-ed6209edf7d5
+19-02-2016 16:15:04.395 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:04.411 - MESSAGE - retrieving json object from: https://npropendata.rdw.nl/parkingdata/v2/static/5829fb06-ee4a-4762-946c-ed6209edf7d5
+19-02-2016 16:15:04.479 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:04.479 - MESSAGE - saving garage data
+19-02-2016 16:15:04.495 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:04.495 - MESSAGE - garage processed: P03 - Dek Stadspoort
+19-02-2016 16:15:04.495 - MESSAGE - processing garage: PG-Pieter Vreedeplein
+19-02-2016 16:15:04.510 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/e4da517a-ef32-426d-821c-96e29ac5ac80
+19-02-2016 16:15:04.564 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:04.564 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/e4da517a-ef32-426d-821c-96e29ac5ac80
+19-02-2016 16:15:04.617 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:04.617 - MESSAGE - saving garage data
+19-02-2016 16:15:04.632 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:04.632 - MESSAGE - garage processed: PG-Pieter Vreedeplein
+19-02-2016 16:15:04.632 - MESSAGE - processing garage: Paardenveld - Paardenveld
+19-02-2016 16:15:04.632 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/79c88146-686a-4f39-8467-c906e6bc4161
+19-02-2016 16:15:04.695 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:04.695 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/79c88146-686a-4f39-8467-c906e6bc4161
+19-02-2016 16:15:04.748 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:04.764 - MESSAGE - saving garage data
+19-02-2016 16:15:04.764 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:04.764 - MESSAGE - garage processed: Paardenveld - Paardenveld
+19-02-2016 16:15:04.780 - MESSAGE - processing garage: Rhijnauwen Lus (P2) - Rhijnauwen Lus (P2)
+19-02-2016 16:15:04.780 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/e922d462-0d38-44be-a3b0-62c11e1baf34
+19-02-2016 16:15:04.833 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:04.833 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/e922d462-0d38-44be-a3b0-62c11e1baf34
+19-02-2016 16:15:04.896 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:04.896 - MESSAGE - saving garage data
+19-02-2016 16:15:04.896 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:04.912 - MESSAGE - garage processed: Rhijnauwen Lus (P2) - Rhijnauwen Lus (P2)
+19-02-2016 16:15:04.916 - MESSAGE - processing garage: P5 - P_Oude Haven
+19-02-2016 16:15:04.918 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/0dbde74b-a3fa-4c6d-b6b9-b81c60648d22
+19-02-2016 16:15:04.965 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:04.980 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/0dbde74b-a3fa-4c6d-b6b9-b81c60648d22
+19-02-2016 16:15:05.033 - FAILED  - failed to get json object
+19-02-2016 16:15:05.049 - MESSAGE - saving garage data
+19-02-2016 16:15:05.049 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:05.049 - MESSAGE - garage processed: P5 - P_Oude Haven
+19-02-2016 16:15:05.064 - MESSAGE - processing garage: Grifthoek - Grifthoek
+19-02-2016 16:15:05.064 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/4f090b45-74a5-423b-bbd4-eac06943110c
+19-02-2016 16:15:05.117 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:05.117 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/4f090b45-74a5-423b-bbd4-eac06943110c
+19-02-2016 16:15:05.165 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:05.180 - MESSAGE - saving garage data
+19-02-2016 16:15:05.180 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:05.180 - MESSAGE - garage processed: Grifthoek - Grifthoek
+19-02-2016 16:15:05.196 - MESSAGE - processing garage: Kruisstraat - Kruisstraat
+19-02-2016 16:15:05.196 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/0c9bc6de-95be-4803-8fb9-483b2291338d
+19-02-2016 16:15:05.250 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:05.250 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/0c9bc6de-95be-4803-8fb9-483b2291338d
+19-02-2016 16:15:05.317 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:05.319 - MESSAGE - saving garage data
+19-02-2016 16:15:05.319 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:05.319 - MESSAGE - garage processed: Kruisstraat - Kruisstraat
+19-02-2016 16:15:05.334 - MESSAGE - processing garage: Hoog Catharijne P1 - Hoog Catharijne P1 (Moreelsepark)
+19-02-2016 16:15:05.334 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/a1a378a5-f599-4afe-8561-2b7c91e0748b
+19-02-2016 16:15:05.381 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:05.381 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/a1a378a5-f599-4afe-8561-2b7c91e0748b
+19-02-2016 16:15:05.435 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:05.450 - MESSAGE - saving garage data
+19-02-2016 16:15:05.450 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:05.450 - MESSAGE - garage processed: Hoog Catharijne P1 - Hoog Catharijne P1 (Moreelsepark)
+19-02-2016 16:15:05.466 - MESSAGE - processing garage: Jaarbeurs P1 - Jaarbeurs P1
+19-02-2016 16:15:05.466 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/650bc16f-d210-49f3-992b-530f9360b251
+19-02-2016 16:15:05.519 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:05.534 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/650bc16f-d210-49f3-992b-530f9360b251
+19-02-2016 16:15:05.581 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:05.597 - MESSAGE - saving garage data
+19-02-2016 16:15:05.597 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:05.597 - MESSAGE - garage processed: Jaarbeurs P1 - Jaarbeurs P1
+19-02-2016 16:15:05.597 - MESSAGE - processing garage: PAP03 - Brinkpark Kortparkeerders
+19-02-2016 16:15:05.615 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/2518bfc0-8f78-458a-999a-7624e9e2ec37
+19-02-2016 16:15:05.666 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:05.666 - MESSAGE - retrieving json object from: https://npropendata.rdw.nl/parkingdata/v2/static/2518bfc0-8f78-458a-999a-7624e9e2ec37
+19-02-2016 16:15:05.751 - FAILED  - failed to get json object
+19-02-2016 16:15:05.766 - MESSAGE - saving garage data
+19-02-2016 16:15:05.766 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:05.766 - MESSAGE - garage processed: PAP03 - Brinkpark Kortparkeerders
+19-02-2016 16:15:05.766 - MESSAGE - processing garage: Hoog Catharijne P6 - Hoog Catharijne P6 (Rijnkade)
+19-02-2016 16:15:05.782 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/931ca30a-d1d7-41d3-b263-9ca1242d70e0
+19-02-2016 16:15:05.836 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:05.836 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/931ca30a-d1d7-41d3-b263-9ca1242d70e0
+19-02-2016 16:15:05.898 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:05.898 - MESSAGE - saving garage data
+19-02-2016 16:15:05.917 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:05.920 - MESSAGE - garage processed: Hoog Catharijne P6 - Hoog Catharijne P6 (Rijnkade)
+19-02-2016 16:15:05.920 - MESSAGE - processing garage: P4 - P_Schouwburgplein
+19-02-2016 16:15:05.920 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/e0db5b5a-0670-4bd7-9bf5-dc248f86dfaa
+19-02-2016 16:15:05.967 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:05.983 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/e0db5b5a-0670-4bd7-9bf5-dc248f86dfaa
+19-02-2016 16:15:06.067 - FAILED  - failed to get json object
+19-02-2016 16:15:06.083 - MESSAGE - saving garage data
+19-02-2016 16:15:06.083 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:06.083 - MESSAGE - garage processed: P4 - P_Schouwburgplein
+19-02-2016 16:15:06.083 - MESSAGE - processing garage: Hoog Catharijne P2 - Hoog Catharijne P2 (Godebald)
+19-02-2016 16:15:06.099 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/15e3670a-4510-450e-95a9-94d6b8f4a615
+19-02-2016 16:15:06.152 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:06.152 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/15e3670a-4510-450e-95a9-94d6b8f4a615
+19-02-2016 16:15:06.220 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:06.220 - MESSAGE - saving garage data
+19-02-2016 16:15:06.220 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:06.236 - MESSAGE - garage processed: Hoog Catharijne P2 - Hoog Catharijne P2 (Godebald)
+19-02-2016 16:15:06.236 - MESSAGE - processing garage: P47 - P_Hoogvliet Centrum
+19-02-2016 16:15:06.236 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/41155172-1cd7-46c2-9053-4d4dcdf751f7
+19-02-2016 16:15:06.299 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:06.299 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/41155172-1cd7-46c2-9053-4d4dcdf751f7
+19-02-2016 16:15:06.415 - FAILED  - failed to get json object
+19-02-2016 16:15:06.418 - MESSAGE - saving garage data
+19-02-2016 16:15:06.421 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:06.421 - MESSAGE - garage processed: P47 - P_Hoogvliet Centrum
+19-02-2016 16:15:06.421 - MESSAGE - processing garage: Hoeksterend - Hoeksterend
+19-02-2016 16:15:06.436 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/f119ef2e-56c2-46bf-b7b1-fdb7141f84dd
+19-02-2016 16:15:06.483 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:06.483 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/f119ef2e-56c2-46bf-b7b1-fdb7141f84dd
+19-02-2016 16:15:06.552 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:06.552 - MESSAGE - saving garage data
+19-02-2016 16:15:06.552 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:06.552 - MESSAGE - garage processed: Hoeksterend - Hoeksterend
+19-02-2016 16:15:06.568 - MESSAGE - processing garage: Klanderij - Klanderij
+19-02-2016 16:15:06.568 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/ea268aa1-3d13-46a0-b111-b986eddc26f7
+19-02-2016 16:15:06.621 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:06.621 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/ea268aa1-3d13-46a0-b111-b986eddc26f7
+19-02-2016 16:15:06.684 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:06.684 - MESSAGE - saving garage data
+19-02-2016 16:15:06.699 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:06.699 - MESSAGE - garage processed: Klanderij - Klanderij
+19-02-2016 16:15:06.699 - MESSAGE - processing garage: PG-Koningsplein
+19-02-2016 16:15:06.699 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/9c63ecc3-e1e3-4079-b2c2-efb12d2eebdc
+19-02-2016 16:15:06.753 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:06.768 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/9c63ecc3-e1e3-4079-b2c2-efb12d2eebdc
+19-02-2016 16:15:06.821 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:06.821 - MESSAGE - saving garage data
+19-02-2016 16:15:06.837 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:06.837 - MESSAGE - garage processed: PG-Koningsplein
+19-02-2016 16:15:06.837 - MESSAGE - processing garage: P30 - P+R_Slinge benedendek
+19-02-2016 16:15:06.837 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/b00dce24-b1ae-4526-895f-814cb16f354e
+19-02-2016 16:15:06.899 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:06.899 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/b00dce24-b1ae-4526-895f-814cb16f354e
+19-02-2016 16:15:06.968 - FAILED  - failed to get json object
+19-02-2016 16:15:06.968 - MESSAGE - saving garage data
+19-02-2016 16:15:06.968 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:06.968 - MESSAGE - garage processed: P30 - P+R_Slinge benedendek
+19-02-2016 16:15:06.984 - MESSAGE - processing garage: PG-Schouwburg
+19-02-2016 16:15:06.984 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/2d60fb96-10a3-444b-a2c9-1d93a3c893f1
+19-02-2016 16:15:07.037 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:07.037 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/2d60fb96-10a3-444b-a2c9-1d93a3c893f1
+19-02-2016 16:15:07.084 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:07.100 - MESSAGE - saving garage data
+19-02-2016 16:15:07.100 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:07.100 - MESSAGE - garage processed: PG-Schouwburg
+19-02-2016 16:15:07.116 - MESSAGE - processing garage: P1 - P_Erasmusbrug
+19-02-2016 16:15:07.121 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/23f58b84-8905-474e-b0de-366a3fd4457a
+19-02-2016 16:15:07.169 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:07.169 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/23f58b84-8905-474e-b0de-366a3fd4457a
+19-02-2016 16:15:07.501 - FAILED  - failed to get json object
+19-02-2016 16:15:07.501 - MESSAGE - saving garage data
+19-02-2016 16:15:07.501 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:07.519 - MESSAGE - garage processed: P1 - P_Erasmusbrug
+19-02-2016 16:15:07.523 - MESSAGE - processing garage: PAP02 - Koningshaven
+19-02-2016 16:15:07.523 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/d381c28b-2cf8-48b6-b0f8-8166c08cf25f
+19-02-2016 16:15:07.570 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:07.570 - MESSAGE - retrieving json object from: https://npropendata.rdw.nl/parkingdata/v2/static/d381c28b-2cf8-48b6-b0f8-8166c08cf25f
+19-02-2016 16:15:07.654 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:07.654 - MESSAGE - saving garage data
+19-02-2016 16:15:07.654 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:07.670 - MESSAGE - garage processed: PAP02 - Koningshaven
+19-02-2016 16:15:07.670 - MESSAGE - processing garage: Hoog Catharijne P4 - Hoog Catharijne P4 (Stationstraat)
+19-02-2016 16:15:07.670 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/5202846b-67e5-455e-a29e-0c26cb1912cc
+19-02-2016 16:15:07.723 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:07.723 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/5202846b-67e5-455e-a29e-0c26cb1912cc
+19-02-2016 16:15:07.785 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:07.785 - MESSAGE - saving garage data
+19-02-2016 16:15:07.785 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:07.801 - MESSAGE - garage processed: Hoog Catharijne P4 - Hoog Catharijne P4 (Stationstraat)
+19-02-2016 16:15:07.801 - MESSAGE - processing garage: P301 - P+R Slinge bovendek
+19-02-2016 16:15:07.801 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/26b41495-1c1d-46e3-8988-eba02cf85fa8
+19-02-2016 16:15:07.854 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:07.854 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/26b41495-1c1d-46e3-8988-eba02cf85fa8
+19-02-2016 16:15:07.939 - FAILED  - failed to get json object
+19-02-2016 16:15:07.939 - MESSAGE - saving garage data
+19-02-2016 16:15:07.939 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:07.955 - MESSAGE - garage processed: P301 - P+R Slinge bovendek
+19-02-2016 16:15:07.955 - MESSAGE - processing garage: Oldehove - Oldehove
+19-02-2016 16:15:07.955 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/dd4407e5-dded-46cc-a9f4-a5ef45bfc61a
+19-02-2016 16:15:08.002 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:08.020 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/dd4407e5-dded-46cc-a9f4-a5ef45bfc61a
+19-02-2016 16:15:08.071 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:08.086 - MESSAGE - saving garage data
+19-02-2016 16:15:08.086 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:08.086 - MESSAGE - garage processed: Oldehove - Oldehove
+19-02-2016 16:15:08.086 - MESSAGE - processing garage: P02 - Brink
+19-02-2016 16:15:08.102 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/186af3cc-3ebe-40b1-a807-72f98dbc94f7
+19-02-2016 16:15:08.155 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:08.155 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/186af3cc-3ebe-40b1-a807-72f98dbc94f7
+19-02-2016 16:15:08.219 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:08.223 - MESSAGE - saving garage data
+19-02-2016 16:15:08.223 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:08.223 - MESSAGE - garage processed: P02 - Brink
+19-02-2016 16:15:08.223 - MESSAGE - processing garage: 2 - Zaantheater
+19-02-2016 16:15:08.239 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/0cd6fb80-6299-49c3-9d25-7b39c6124c7f
+19-02-2016 16:15:08.324 - FAILED  - failed to get json object
+19-02-2016 16:15:08.324 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/0cd6fb80-6299-49c3-9d25-7b39c6124c7f
+19-02-2016 16:15:08.386 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:08.386 - MESSAGE - saving garage data
+19-02-2016 16:15:08.386 - FAILED  - no garage data to save
+19-02-2016 16:15:08.386 - MESSAGE - garage processed: 2 - Zaantheater
+19-02-2016 16:15:08.386 - MESSAGE - processing garage: PAP01 - Marktplein
+19-02-2016 16:15:08.402 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/1c5821ea-fcbb-4cf9-ba94-97213c02302e
+19-02-2016 16:15:08.455 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:08.455 - MESSAGE - retrieving json object from: https://npropendata.rdw.nl/parkingdata/v2/static/1c5821ea-fcbb-4cf9-ba94-97213c02302e
+19-02-2016 16:15:08.524 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:08.524 - MESSAGE - saving garage data
+19-02-2016 16:15:08.540 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:08.540 - MESSAGE - garage processed: PAP01 - Marktplein
+19-02-2016 16:15:08.540 - MESSAGE - processing garage: La Vie - La Vie
+19-02-2016 16:15:08.540 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/ba0769fd-d11a-47c3-8014-e43c1d9d1742
+19-02-2016 16:15:08.618 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:08.622 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/ba0769fd-d11a-47c3-8014-e43c1d9d1742
+19-02-2016 16:15:08.671 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:08.671 - MESSAGE - saving garage data
+19-02-2016 16:15:08.687 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:08.687 - MESSAGE - garage processed: La Vie - La Vie
+19-02-2016 16:15:08.687 - MESSAGE - processing garage: P18 - P_Boompjes
+19-02-2016 16:15:08.702 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/ee4b0a59-d1cb-47ad-97aa-bfb9005e9949
+19-02-2016 16:15:08.756 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:08.756 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/ee4b0a59-d1cb-47ad-97aa-bfb9005e9949
+19-02-2016 16:15:08.825 - FAILED  - failed to get json object
+19-02-2016 16:15:08.825 - MESSAGE - saving garage data
+19-02-2016 16:15:08.825 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:08.841 - MESSAGE - garage processed: P18 - P_Boompjes
+19-02-2016 16:15:08.841 - MESSAGE - processing garage: P04 - Kelder Stadspoort
+19-02-2016 16:15:08.841 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/4d958ee5-ca22-4cf1-9568-7b3aafa4350e
+19-02-2016 16:15:08.903 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:08.921 - MESSAGE - retrieving json object from: https://npropendata.rdw.nl/parkingdata/v2/static/4d958ee5-ca22-4cf1-9568-7b3aafa4350e
+19-02-2016 16:15:09.025 - FAILED  - failed to get json object
+19-02-2016 16:15:09.025 - MESSAGE - saving garage data
+19-02-2016 16:15:09.025 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:09.041 - MESSAGE - garage processed: P04 - Kelder Stadspoort
+19-02-2016 16:15:09.041 - MESSAGE - processing garage: Oud Amelisweerd (P3) - Oud Amelisweerd (P3)
+19-02-2016 16:15:09.041 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/4de760da-4148-484f-b3bc-74c9f8811dcf
+19-02-2016 16:15:09.088 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:09.103 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/4de760da-4148-484f-b3bc-74c9f8811dcf
+19-02-2016 16:15:09.156 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:09.156 - MESSAGE - saving garage data
+19-02-2016 16:15:09.172 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:09.172 - MESSAGE - garage processed: Oud Amelisweerd (P3) - Oud Amelisweerd (P3)
+19-02-2016 16:15:09.172 - MESSAGE - processing garage: PG-Knegtel
+19-02-2016 16:15:09.172 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/0b3e54e1-e91e-454c-909d-392e33cb6c9a
+19-02-2016 16:15:09.241 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:09.241 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/0b3e54e1-e91e-454c-909d-392e33cb6c9a
+19-02-2016 16:15:09.288 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:09.288 - MESSAGE - saving garage data
+19-02-2016 16:15:09.303 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:09.303 - MESSAGE - garage processed: PG-Knegtel
+19-02-2016 16:15:09.303 - MESSAGE - processing garage: Hoog Catharijne P3 - Hoog Catharijne P3 (Radboud)
+19-02-2016 16:15:09.319 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/6174492c-1ce0-4ab0-8ff5-ada4aaa62f4f
+19-02-2016 16:15:09.388 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:09.404 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/6174492c-1ce0-4ab0-8ff5-ada4aaa62f4f
+19-02-2016 16:15:09.457 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:09.457 - MESSAGE - saving garage data
+19-02-2016 16:15:09.457 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:09.473 - MESSAGE - garage processed: Hoog Catharijne P3 - Hoog Catharijne P3 (Radboud)
+19-02-2016 16:15:09.473 - MESSAGE - processing garage: PG-013-Tivoli
+19-02-2016 16:15:09.473 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/a89f5b00-3759-43d0-829e-58dc01173bf6
+19-02-2016 16:15:09.526 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:09.542 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/a89f5b00-3759-43d0-829e-58dc01173bf6
+19-02-2016 16:15:09.589 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:09.589 - MESSAGE - saving garage data
+19-02-2016 16:15:09.604 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:09.604 - MESSAGE - garage processed: PG-013-Tivoli
+19-02-2016 16:15:09.604 - MESSAGE - processing garage: PG-Heuvelpoort
+19-02-2016 16:15:09.604 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/9237aa38-24b7-48b0-8a11-b4a99d6a8183
+19-02-2016 16:15:09.658 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:09.658 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/9237aa38-24b7-48b0-8a11-b4a99d6a8183
+19-02-2016 16:15:09.726 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:09.726 - MESSAGE - saving garage data
+19-02-2016 16:15:09.726 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:09.726 - MESSAGE - garage processed: PG-Heuvelpoort
+19-02-2016 16:15:09.726 - MESSAGE - processing garage: Oosterstraat - Oosterstraat
+19-02-2016 16:15:09.742 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/3a2cade6-19ab-4a95-8409-459cf8b46cdf
+19-02-2016 16:15:09.789 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:09.789 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/3a2cade6-19ab-4a95-8409-459cf8b46cdf
+19-02-2016 16:15:09.857 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:09.857 - MESSAGE - saving garage data
+19-02-2016 16:15:09.857 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:09.857 - MESSAGE - garage processed: Oosterstraat - Oosterstraat
+19-02-2016 16:15:09.873 - MESSAGE - processing garage: P23 - P_Kruisplein
+19-02-2016 16:15:09.873 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/d58b1345-2cea-4e49-b3c2-51502f459fb5
+19-02-2016 16:15:09.926 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:09.926 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/d58b1345-2cea-4e49-b3c2-51502f459fb5
+19-02-2016 16:15:10.004 - FAILED  - failed to get json object
+19-02-2016 16:15:10.004 - MESSAGE - saving garage data
+19-02-2016 16:15:10.022 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:10.025 - MESSAGE - garage processed: P23 - P_Kruisplein
+19-02-2016 16:15:10.026 - MESSAGE - processing garage: Jaarbeurs P2 - Jaarbeurs P2
+19-02-2016 16:15:10.026 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/9ae7126a-ee1c-481e-810a-e30a8a3c55dc
+19-02-2016 16:15:10.073 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:10.089 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/9ae7126a-ee1c-481e-810a-e30a8a3c55dc
+19-02-2016 16:15:10.142 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:10.142 - MESSAGE - saving garage data
+19-02-2016 16:15:10.142 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:10.142 - MESSAGE - garage processed: Jaarbeurs P2 - Jaarbeurs P2
+19-02-2016 16:15:10.158 - MESSAGE - processing garage: Kop van Lombok - Kop van Lombok
+19-02-2016 16:15:10.158 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/e9567c06-d063-441e-817b-6d44c145ee0f
+19-02-2016 16:15:10.205 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:10.221 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/e9567c06-d063-441e-817b-6d44c145ee0f
+19-02-2016 16:15:10.273 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:10.273 - MESSAGE - saving garage data
+19-02-2016 16:15:10.273 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:10.273 - MESSAGE - garage processed: Kop van Lombok - Kop van Lombok
+19-02-2016 16:15:10.289 - MESSAGE - processing garage: 1 - Rozenhof
+19-02-2016 16:15:10.289 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/d32eb328-c4ae-4f1f-a7a3-6f0d8dc60789
+19-02-2016 16:15:10.366 - FAILED  - failed to get json object
+19-02-2016 16:15:10.369 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/d32eb328-c4ae-4f1f-a7a3-6f0d8dc60789
+19-02-2016 16:15:10.426 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:10.426 - MESSAGE - saving garage data
+19-02-2016 16:15:10.426 - FAILED  - no garage data to save
+19-02-2016 16:15:10.442 - MESSAGE - garage processed: 1 - Rozenhof
+19-02-2016 16:15:10.442 - MESSAGE - processing garage: P2 - P_Kiphof
+19-02-2016 16:15:10.442 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/e3a2a8e1-eb46-4704-87e6-3a91d6ee7a78
+19-02-2016 16:15:10.504 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:10.504 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/e3a2a8e1-eb46-4704-87e6-3a91d6ee7a78
+19-02-2016 16:15:10.573 - FAILED  - failed to get json object
+19-02-2016 16:15:10.573 - MESSAGE - saving garage data
+19-02-2016 16:15:10.573 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:10.589 - MESSAGE - garage processed: P2 - P_Kiphof
+19-02-2016 16:15:10.589 - MESSAGE - processing garage: P34 - P+R_Meijersplein
+19-02-2016 16:15:10.589 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/44e795d5-59af-494d-9e7e-5a88a20813b8
+19-02-2016 16:15:10.658 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:10.658 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/44e795d5-59af-494d-9e7e-5a88a20813b8
+19-02-2016 16:15:10.727 - FAILED  - failed to get json object
+19-02-2016 16:15:10.742 - MESSAGE - saving garage data
+19-02-2016 16:15:10.742 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:10.742 - MESSAGE - garage processed: P34 - P+R_Meijersplein
+19-02-2016 16:15:10.742 - MESSAGE - processing garage: Vaartsche Rijn - Vaartsche Rijn
+19-02-2016 16:15:10.742 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/0861cbd5-0ff9-4f70-ab72-5bfee0c40856
+19-02-2016 16:15:10.805 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:10.805 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/0861cbd5-0ff9-4f70-ab72-5bfee0c40856
+19-02-2016 16:15:10.874 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:10.874 - MESSAGE - saving garage data
+19-02-2016 16:15:10.874 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:10.889 - MESSAGE - garage processed: Vaartsche Rijn - Vaartsche Rijn
+19-02-2016 16:15:10.889 - MESSAGE - processing garage: Revius - Revius
+19-02-2016 16:15:10.889 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/fc2f91ac-400f-4df8-8627-b163d68cd68f
+19-02-2016 16:15:10.973 - FAILED  - failed to get json object
+19-02-2016 16:15:10.973 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/fc2f91ac-400f-4df8-8627-b163d68cd68f
+19-02-2016 16:15:11.027 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:11.043 - MESSAGE - saving garage data
+19-02-2016 16:15:11.043 - FAILED  - no garage data to save
+19-02-2016 16:15:11.043 - MESSAGE - garage processed: Revius - Revius
+19-02-2016 16:15:11.043 - MESSAGE - processing garage: Springweg - Springweg
+19-02-2016 16:15:11.043 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/d7a0d9a7-681f-48a9-829c-0e4b4269123b
+19-02-2016 16:15:11.105 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:11.105 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/d7a0d9a7-681f-48a9-829c-0e4b4269123b
+19-02-2016 16:15:11.159 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:11.174 - MESSAGE - saving garage data
+19-02-2016 16:15:11.174 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:11.174 - MESSAGE - garage processed: Springweg - Springweg
+19-02-2016 16:15:11.174 - MESSAGE - processing garage: PG-Emmapassage
+19-02-2016 16:15:11.190 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/255aa0fa-e249-42cc-ac6d-062d41b2ae62
+19-02-2016 16:15:11.243 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:11.243 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/255aa0fa-e249-42cc-ac6d-062d41b2ae62
+19-02-2016 16:15:11.306 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:11.306 - MESSAGE - saving garage data
+19-02-2016 16:15:11.306 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:11.324 - MESSAGE - garage processed: PG-Emmapassage
+19-02-2016 16:15:11.327 - MESSAGE - processing garage: Zaailand - Zaailand
+19-02-2016 16:15:11.327 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/280b5a3a-4daa-4056-a159-82cf0cc63872
+19-02-2016 16:15:11.390 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:11.390 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/280b5a3a-4daa-4056-a159-82cf0cc63872
+19-02-2016 16:15:11.444 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:11.444 - MESSAGE - saving garage data
+19-02-2016 16:15:11.459 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:11.459 - MESSAGE - garage processed: Zaailand - Zaailand
+19-02-2016 16:15:11.459 - MESSAGE - processing garage: P19 - P_Museumpark
+19-02-2016 16:15:11.459 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/e7b887a9-6eb7-4a0d-9a00-d2999b1cc0b4
+19-02-2016 16:15:11.527 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:11.527 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/e7b887a9-6eb7-4a0d-9a00-d2999b1cc0b4
+19-02-2016 16:15:11.606 - FAILED  - failed to get json object
+19-02-2016 16:15:11.606 - MESSAGE - saving garage data
+19-02-2016 16:15:11.606 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:11.606 - MESSAGE - garage processed: P19 - P_Museumpark
+19-02-2016 16:15:11.606 - MESSAGE - processing garage: Hoog Catharijne P5 - Hoog Catharijne P5 (Vredenburg)
+19-02-2016 16:15:11.624 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/a212aba0-b2aa-4033-9db3-89728ac91604
+19-02-2016 16:15:11.675 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:11.675 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/a212aba0-b2aa-4033-9db3-89728ac91604
+19-02-2016 16:15:11.727 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:11.743 - MESSAGE - saving garage data
+19-02-2016 16:15:11.743 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:11.743 - MESSAGE - garage processed: Hoog Catharijne P5 - Hoog Catharijne P5 (Vredenburg)
+19-02-2016 16:15:11.743 - MESSAGE - processing garage: P1 - Keizer Karel
+19-02-2016 16:15:11.743 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/10a891ba-60df-44d9-a872-9bf9ed9fb4f3
+19-02-2016 16:15:11.827 - FAILED  - failed to get json object
+19-02-2016 16:15:11.828 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/10a891ba-60df-44d9-a872-9bf9ed9fb4f3
+19-02-2016 16:15:11.875 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:11.875 - MESSAGE - saving garage data
+19-02-2016 16:15:11.875 - FAILED  - no garage data to save
+19-02-2016 16:15:11.875 - MESSAGE - garage processed: P1 - Keizer Karel
+19-02-2016 16:15:11.891 - MESSAGE - processing garage: Rhijnauwen Theehuis (P1) - Rhijnauwen Theehuis (P1)
+19-02-2016 16:15:11.891 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/f11238fd-85e6-493c-ae1b-f87f65654061
+19-02-2016 16:15:11.944 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:11.944 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/f11238fd-85e6-493c-ae1b-f87f65654061
+19-02-2016 16:15:11.991 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:12.007 - MESSAGE - saving garage data
+19-02-2016 16:15:12.007 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:12.007 - MESSAGE - garage processed: Rhijnauwen Theehuis (P1) - Rhijnauwen Theehuis (P1)
+19-02-2016 16:15:12.007 - MESSAGE - processing garage: P36 - P+R_Alexander
+19-02-2016 16:15:12.024 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/7f9d209e-ecf2-4352-8887-ee00be47c64a
+19-02-2016 16:15:12.091 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:12.091 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/7f9d209e-ecf2-4352-8887-ee00be47c64a
+19-02-2016 16:15:12.207 - FAILED  - failed to get json object
+19-02-2016 16:15:12.223 - MESSAGE - saving garage data
+19-02-2016 16:15:12.228 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:12.229 - MESSAGE - garage processed: P36 - P+R_Alexander
+19-02-2016 16:15:12.229 - MESSAGE - processing garage: PG-Stappegoor
+19-02-2016 16:15:12.229 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/ae50dbd5-c4c8-4cf3-aac1-e633225ff5c4
+19-02-2016 16:15:12.276 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:12.291 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/ae50dbd5-c4c8-4cf3-aac1-e633225ff5c4
+19-02-2016 16:15:12.329 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:12.345 - MESSAGE - saving garage data
+19-02-2016 16:15:12.345 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:12.345 - MESSAGE - garage processed: PG-Stappegoor
+19-02-2016 16:15:12.360 - MESSAGE - processing garage: P05 - Centrumgarage
+19-02-2016 16:15:12.360 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/0e8a6857-655d-467b-8c15-8ee65c7357bf
+19-02-2016 16:15:12.407 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:12.407 - MESSAGE - retrieving json object from: https://npropendata.rdw.nl/parkingdata/v2/static/0e8a6857-655d-467b-8c15-8ee65c7357bf
+19-02-2016 16:15:12.545 - FAILED  - failed to get json object
+19-02-2016 16:15:12.561 - MESSAGE - saving garage data
+19-02-2016 16:15:12.561 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:12.561 - MESSAGE - garage processed: P05 - Centrumgarage
+19-02-2016 16:15:12.576 - MESSAGE - processing garage: Jaarbeurs P4 - Jaarbeurs P4
+19-02-2016 16:15:12.576 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/2b887560-3791-4011-9c9c-1f79046f9ec9
+19-02-2016 16:15:12.629 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:12.629 - MESSAGE - retrieving json object from: http://opendata.technolution.nl/opendata/parkingdata/v1/static/2b887560-3791-4011-9c9c-1f79046f9ec9
+19-02-2016 16:15:12.676 - MESSAGE - json object successfully retrieved
+19-02-2016 16:15:12.692 - MESSAGE - saving garage data
+19-02-2016 16:15:12.692 - MESSAGE - garage data successfully saved
+19-02-2016 16:15:12.707 - MESSAGE - garage processed: Jaarbeurs P4 - Jaarbeurs P4
+19-02-2016 16:15:12.707 - EXIT    - Exit Crawler
+

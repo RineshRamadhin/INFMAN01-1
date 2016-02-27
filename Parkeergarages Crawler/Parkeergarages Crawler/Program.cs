@@ -3,7 +3,6 @@ using System.Net;
 using Newtonsoft.Json;
 using System.IO;
 using MySql.Data.MySqlClient;
-using System.Globalization;
 
 namespace Parkeergarages_Crawler
 {
@@ -11,20 +10,24 @@ namespace Parkeergarages_Crawler
     {
         // constants
         public const string ALL_GARAGES_URL     = "http://opendata.technolution.nl/opendata/parkingdata/v1";
-        public static string LOG_FILE           = Directory.GetCurrentDirectory() + "\\log.txt";
+        public static string LOG_FOLDER         = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\Parkeergarages Crawler Logfiles";
+        public static string LOG_FILE           = LOG_FOLDER + "\\log.txt";
         public const string DATABASE_DATASOURCE = "localhost";
         public const string DATABASE_PORT       = "3306";
         public const string DATABASE_USERNAME   = "Test";
         public const string DATABASE_PASSWORD   = "Test123";
-
 
         // global variables
         public static dynamic garages = null;
 
         static void Main(string[] args)
         {
-            log("Start Crawler", 's');
             Console.Title = "Parkeergarages Crawler";
+
+            // create log folder
+            Directory.CreateDirectory(LOG_FOLDER);
+
+            log("Start Crawler", 's');
 
             // get garages
             garages = getJsonObjectFromUrl(ALL_GARAGES_URL);
@@ -70,11 +73,12 @@ namespace Parkeergarages_Crawler
                     try
                     {
                         Console.WriteLine((string)garage["name"] );
-  
-                        dynamicData = getJsonObjectFromUrl( (string)garage["dynamicDataUrl"] );
-                        staticData = getJsonObjectFromUrl((string)garage["staticDataUrl"]);
 
-                        saveGarage(dynamicData);
+                        staticData = getJsonObjectFromUrl((string)garage["staticDataUrl"]);
+                        dynamicData = getJsonObjectFromUrl( (string)garage["dynamicDataUrl"] );
+
+                        saveStaticGarage(staticData);
+                        saveDynamicGarage(dynamicData);
                         log("garage processed: " + (string)garage["name"], '1');
                     }
                     catch (Exception e)
@@ -90,17 +94,41 @@ namespace Parkeergarages_Crawler
             }
         }
 
-        static void saveGarage(dynamic garage)
+        static void saveStaticGarage(dynamic garage)
         {
-            log("saving garage data", '1');
+            log("saving static garage data", '1');
 
             if (garage != null)
-            {          
+            {
+                try
+                {
+                    // save static data? run once with insert query, after that update query
+                    log("static garage data successfully saved", '1');
+                }
+                catch (Exception e)
+                {
+                    log("failed to save static garage data", '2');
+                    log(e.ToString(), '3');
+                    throw;
+                }
+            }
+            else
+            {
+                log("no static garage data to save", '2');
+            }
+        }
+
+        static void saveDynamicGarage(dynamic garage)
+        {
+            log("dynamic saving garage data", '1');
+
+            if (garage != null)
+            {
                 try
                 {
                     // get data values
-                    string identifier = (string) garage["parkingFacilityDynamicInformation"]["identifier"];
-                    string description = (string) garage["parkingFacilityDynamicInformation"]["description"];
+                    string identifier = (string)garage["parkingFacilityDynamicInformation"]["identifier"];
+                    string description = (string)garage["parkingFacilityDynamicInformation"]["description"];
 
                     int open = Convert.ToInt32(garage["parkingFacilityDynamicInformation"]["facilityActualStatus"]["open"]);
                     int full = Convert.ToInt32(garage["parkingFacilityDynamicInformation"]["facilityActualStatus"]["full"]);
@@ -110,7 +138,7 @@ namespace Parkeergarages_Crawler
 
                     System.DateTime dtDateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, System.DateTimeKind.Local);
                     dtDateTime = dtDateTime.AddSeconds((double)garage["parkingFacilityDynamicInformation"]["facilityActualStatus"]["lastUpdated"]);
-                    String lastUpdated = dtDateTime.ToString("yyyy-MM-dd HH:mm:ss") ;
+                    String lastUpdated = dtDateTime.ToString("yyyy-MM-dd HH:mm:ss");
 
                     // create query
                     String query = "INSERT INTO `infman01_1`.`garagedata` (`identifier`, `description`, `open`, `full`, `parking capacity`, `vacant spaces`, `last updated`) VALUES ('" + identifier + "', '" + description + "', " + open + ", " + full + ", '" + parking_capacity + "', '" + vacant_spaces + "', '" + lastUpdated + "');";
@@ -127,21 +155,20 @@ namespace Parkeergarages_Crawler
                     }
                     myConnection.Close();
 
-                    log("garage data successfully saved", '1');
+                    log("dynamic garage data successfully saved", '1');
                 }
                 catch (Exception e)
                 {
-                    log("failed to save garage data", '2');
+                    log("failed to save dynamic garage data", '2');
                     log(e.ToString(), '3');
                     throw;
                 }
             }
             else
             {
-                log("no garage data to save", '2');
+                log("no dynamic garage data to save", '2');
             }
         }
-
 
         /// <summary>
         /// logs message including message type and datetime timestamp

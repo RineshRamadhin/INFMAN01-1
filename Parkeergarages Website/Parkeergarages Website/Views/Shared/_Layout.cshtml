@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    <script>
+            var controller = '@ViewContext.RouteData.Values["controller"].ToString()'.toLowerCase();
+            var action     = '@ViewContext.RouteData.Values["action"].ToString()'.toLowerCase();
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCp-jNK5KxQhLHow-jekA6IVHEtHtWYMsc"></script>
+    <script src="~/Scripts/site.js" asp-append-version="true"></script>
+</head>
+<body>
+    <div class="navbar navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                @Html.ActionLink("Parkeergarages", "Overview", "Garage", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Rinesh Ramadhin & Jason Lie Yung Tjong</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

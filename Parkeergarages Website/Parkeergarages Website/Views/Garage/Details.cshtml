@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Details";
+}
+
+<script>
+    var garage_info = JSON.parse('@Html.Raw(ViewBag.garage_info)');
+</script>
+
+<div id="details_map"></div>
+
+<h3>@ViewBag.garage_name</h3>
+
+<p>grafiek komt hier</p>
+
+<p>@ViewBag.garage_info</p>
+
+

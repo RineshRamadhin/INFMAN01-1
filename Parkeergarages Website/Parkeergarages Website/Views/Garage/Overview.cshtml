@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = "Overview";
+}
+
+<script>
+    var garages = JSON.parse('@Html.Raw(ViewBag.garages)');
+</script>
+
+<div id="overview_map"></div>

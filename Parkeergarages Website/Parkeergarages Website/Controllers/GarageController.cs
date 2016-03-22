@@ -26,8 +26,19 @@ namespace Parkeergarages_Website.Controllers
         // GET: Garage/Overview
         public ActionResult Overview()
         {
-            var garages = JsonConvert.SerializeObject( Garages() );
-            ViewBag.garages = garages;
+            // get current garage object
+            var garages = Garages();
+
+            // add most recent feit per garage
+            for (int i = 0; i < garages.Count; i++)
+            {
+                garages[i].feit = Feit(garages[i].garage_id);
+            }
+
+            // save properties
+
+            // convert to JSON string     
+            ViewBag.garages = JsonConvert.SerializeObject(garages);
 
             return View();
         }
@@ -35,8 +46,21 @@ namespace Parkeergarages_Website.Controllers
         // GET: Garage/Details?garage_id=
         public ActionResult Details(string garage_id)
         {
+            // get current garage object
             Garage_info garage = Garage(garage_id);
-            ViewBag.garage_name = garage.name;
+            garage.feiten = Feiten(garage.garage_id);
+
+            // save garage properties
+            ViewBag.garage_name             = garage.name;
+            ViewBag.garage_latitude         = garage.latitude;
+            ViewBag.garage_longitude        = garage.longitude;
+            ViewBag.garage_aantal_plekken   = garage.aantal_plekken;
+            ViewBag.garage_vrije_plekken    = garage.feiten[0].vrije_plekken;
+            ViewBag.garage_open             = garage.feiten[0].open;
+            ViewBag.garage_full             = garage.feiten[0].full;
+            ViewBag.garage_last_updated     = garage.feiten[0].datum;
+
+            // save json string
             ViewBag.garage_info = JsonConvert.SerializeObject (garage);
 
             return View();
@@ -45,9 +69,20 @@ namespace Parkeergarages_Website.Controllers
         // GET: Garage/Test
         public String Test()
         {
-            var garages = JsonConvert.SerializeObject( Garages() );
+            // get current garage object
+            Garage_info garage = Garage("e4da517a-ef32-426d-821c-96e29ac5ac80");
+            garage.feiten = Feiten(garage.garage_id);
 
-            return garages;
+            // save garage properties
+            ViewBag.garage_name = garage.name;
+            ViewBag.garage_latitude = garage.latitude;
+            ViewBag.garage_longitude = garage.longitude;
+            ViewBag.garage_aantal_plekken = garage.aantal_plekken;
+
+            // save json string
+            ViewBag.garage_info = JsonConvert.SerializeObject(garage);
+
+            return ViewBag.garage_info;
         }
 
         static bool OpenConnection()
@@ -85,7 +120,7 @@ namespace Parkeergarages_Website.Controllers
             List<Garage_info> garages = new List<Garage_info>();
 
             //Open connection
-            if ( OpenConnection() == true)
+            if (OpenConnection() == true)
             {
                 //Create Command
                 MySqlCommand cmd = new MySqlCommand(query, connection);
@@ -162,5 +197,92 @@ namespace Parkeergarages_Website.Controllers
                 return garage;
             }
         }
+
+        private static Garage_feit Feit(string garage_id)
+        {
+            string query = "SELECT * FROM garages.feit WHERE garages.feit.garage_id = '" + garage_id + "' ORDER BY garages.feit.datum DESC LIMIT 1";
+
+            //Create a list to store the result
+            Garage_feit feit = new Garage_feit();
+
+            //Open connection
+            if (OpenConnection() == true)
+            {
+                //Create Command
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+
+                //Create a data reader and Execute the command
+                MySqlDataReader dataReader = cmd.ExecuteReader();
+
+                //Read the data and store them in the list
+                while (dataReader.Read())
+                {
+                    feit.garage_id = (string) dataReader["garage_id"];
+                    feit.datum = (DateTime) dataReader["datum"];
+                    feit.open = (Boolean) dataReader["open"];
+                    feit.full = (Boolean) dataReader["full"];
+                    feit.vrije_plekken = (int) dataReader["vrije_plekken"];
+                }
+
+                //close Data Reader
+                dataReader.Close();
+
+                //close Connection
+                CloseConnection();
+
+                //return list to be displayed
+                return feit;
+            }
+            else
+            {
+                return feit;
+            }
+        }
+
+        private static List<Garage_feit> Feiten(string garage_id)
+        {
+            string query = "SELECT * FROM garages.feit WHERE garages.feit.garage_id = '" + garage_id + "' ORDER BY garages.feit.datum DESC";
+
+            //Create a list to store the result
+            List<Garage_feit> feiten = new List<Garage_feit>();
+
+            //Open connection
+            if (OpenConnection() == true)
+            {
+                //Create Command
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+
+                //Create a data reader and Execute the command
+                MySqlDataReader dataReader = cmd.ExecuteReader();
+
+                //Read the data and store them in the list
+                while (dataReader.Read())
+                {
+                    Garage_feit feit = new Garage_feit();
+
+                    feit.garage_id = (string)dataReader["garage_id"];
+                    feit.datum = (DateTime)dataReader["datum"];
+                    feit.open = (Boolean)dataReader["open"];
+                    feit.full = (Boolean)dataReader["full"];
+                    feit.vrije_plekken = (int)dataReader["vrije_plekken"];
+
+                    feiten.Add(feit);
+                }
+
+                //close Data Reader
+                dataReader.Close();
+
+                //close Connection
+                CloseConnection();
+
+                //return list to be displayed
+                return feiten;
+            }
+            else
+            {
+                return feiten;
+            }
+        }
+
     }
 }

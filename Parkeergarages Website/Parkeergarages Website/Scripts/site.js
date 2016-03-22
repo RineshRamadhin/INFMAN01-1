@@ -2,12 +2,13 @@
 var map;
 
 $(document).ready(function () {
-
     if (controller == 'garage' && action == 'overview') {
         overviewMap();
     }
     else if (controller == 'garage' && action == 'details') {
+        initDetails();
         detailsMap();
+        initGraphs();
     }
 });
 
@@ -84,6 +85,60 @@ function detailsMap() {
         map: map,
         title: garage_naam
     });
+}
+
+function initDetails() {
+    if (garage_info.feiten[0].open && !garage_info.feiten[0].full) {
+        var ratio = (garage_info.feiten[0].vrije_plekken / garage_info.aantal_plekken) * 100;
+
+        if (ratio >= 80) {
+            document.getElementById('infobox').style.backgroundColor = '#00ff00';
+        } else if (ratio >= 60) {
+            document.getElementById('infobox').style.backgroundColor = '#ccff66';
+            document.getElementById('infobox').style.color = 'black';
+        } else if (ratio >= 40) {
+            document.getElementById('infobox').style.backgroundColor = '#ffff66';
+            document.getElementById('infobox').style.color = 'black';
+        } else if (ratio >= 20) {
+            document.getElementById('infobox').style.backgroundColor = '#ffcc66';
+            document.getElementById('infobox').style.color = 'black';
+        } else {
+            document.getElementById('infobox').style.backgroundColor = '#ff6600';
+            document.getElementById('infobox').style.color = 'black';
+        }
+    }
+}
+
+function initGraphs() {
+    var x = [];
+    var y = [];
+
+    for (var i = 0; i < garage_info.feiten.length; i++) {
+        x.push(garage_info.feiten[i].vrije_plekken);
+        y.push(garage_info.feiten[i].datum);
+    }
+
+    console.log(y);
+
+    var data = [{
+        y: y,
+        x: x,
+        line: { width: 1 },
+        uid: "40abaa"
+    }];
+    var layout = {
+        yaxis: { title: "Aantal vrije parkeerplekken"},      // set the y axis title
+        xaxis: {
+            title: "Datum en tijd",
+            showgrid: true,
+            tickformat: "%B, %Y"              // customize the date format to "month, day"
+        },
+        margin: {                           // update the left, bottom, right, top margin
+            l: 40, b: 10, r: 10, t: 20
+        }
+    };
+
+    Plotly.plot(document.getElementById('graphs'), data, layout);
 }
 
 

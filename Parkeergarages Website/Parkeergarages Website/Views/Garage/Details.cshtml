@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Title = "Details";
+    ViewBag.Title = @ViewBag.garage_name + " - Details";
 }
 
 <script>
@@ -10,7 +10,33 @@
 
 <h3>@ViewBag.garage_name</h3>
 
-<p>grafiek komt hier</p>
+<div id="infobox">
+    <table>
+        <tr>
+            <td class="td_key"> Latitude: </td>
+            <td class="td_value td_center_left"> @ViewBag.garage_latitude </td>
+            <td class="td_key"> Open: </td>
+            <td class="td_value"> @ViewBag.garage_open </td>
+        </tr>
+        <tr>
+            <td class="td_key"> Longitude: </td>
+            <td class="td_value td_center_left"> @ViewBag.garage_longitude </td>
+            <td class="td_key"> Full: </td>
+            <td class="td_value"> @ViewBag.garage_full </td>
+        </tr>
+        <tr>
+            <td class="td_key"> Aantal plekken: </td>
+            <td class="td_value td_center_left"> @ViewBag.garage_aantal_plekken </td>
+            <td class="td_key"> Vrije plekken: </td>
+            <td class="td_value"> @ViewBag.garage_vrije_plekken </td>
+        </tr>
+    </table>
+</div>
+<div id="last_updated">Last updated on: @ViewBag.garage_last_updated (GMT)</div>
+
+<div id="graphs"></div>
+
+<p>grafiek(en) komt hier</p>
 
 <p>@ViewBag.garage_info</p>
 

@@ -25,14 +25,54 @@ textarea {
 
 /* overwrite defaults */
  .navbar {
-     background: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 255, 255, 0.85);
 }
  
 /* Google Maps */
- #overview_map {
+#overview_map {
     height: 750px;
 }
 
-  #details_map {
+#details_map {
     height: 300px;
+}
+
+/* detail page */
+
+#infobox {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+.td_key {
+    font-weight: bold;
+}
+
+.td_value {
+    text-align: right;
+}
+
+.td_center_left {
+    padding-right: 5%;
+}
+
+td {
+    border-bottom: 1px black dotted;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+#last_updated {
+    color: lightgrey;
+    text-align: right;
+    width: 100%;
+    margin-top: -20px;
+    margin-bottom: 20px;
 }

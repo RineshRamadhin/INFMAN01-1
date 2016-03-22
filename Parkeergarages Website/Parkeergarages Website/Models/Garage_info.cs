@@ -12,5 +12,7 @@ namespace Parkeergarages_Website.Models
         public Decimal latitude { get; set; }
         public Decimal longitude { get; set; }
         public int aantal_plekken { get; set; }
+        public Garage_feit feit { get; set; }
+        public List<Garage_feit> feiten { get; set; }
     }
 }

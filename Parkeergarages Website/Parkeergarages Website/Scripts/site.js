@@ -39,7 +39,6 @@ function overviewMap() {
             '</div>' +
             '<h1 id="firstHeading" class="firstHeading">' + garage_name + '</h1>' +
             '<div id="bodyContent">' +
-            'Garage details kort.</p>' +
             '<p><a href="/garage/details?garage_id=' + garage_id + '"> Meer details </a> </p>' +
             '</div>' +
             '</div>';
@@ -107,6 +106,17 @@ function initDetails() {
             document.getElementById('infobox').style.color = 'black';
         }
     }
+
+    var latitude = garage_info.longitude.toString();
+    var longitude = garage_info.latitude.toString();
+
+    latitude = latitude.replace(",", ".");
+    longtude = longitude.replace(",", ".");
+
+    $.getJSON("http://maps.googleapis.com/maps/api/geocode/json?latlng=" + latitude + "," + longitude, function (json) {
+        var adres = json.results[0].formatted_address;
+        document.getElementById('adres_field').textContent = adres;
+    });
 }
 
 function initGraphs() {

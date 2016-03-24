@@ -27,6 +27,19 @@ function overviewMap() {
         var garage_latitude         = garages[i].longitude;
         var garage_aantal_plekken   = garages[i].aantal_plekken;
         var garage_loc = { lat: garage_latitude, lng: garage_longitude };
+        var image = "http://maps.google.com/mapfiles/marker.png";
+
+        var ratio = (garages[i].feit.vrije_plekken / garages[i].aantal_plekken) * 100;
+
+        if (ratio >= 66){
+            image = "http://maps.google.com/mapfiles/marker_green.png";
+        } 
+        else if (ratio >= 33){
+            image = "http://maps.google.com/mapfiles/marker_yellow.png"
+        } 
+        else if (ratio >= 0){
+            image = "http://maps.google.com/mapfiles/marker_orange.png";
+        }
 
         markers[i] = {
             infowindow      : null,
@@ -52,6 +65,7 @@ function overviewMap() {
             position: garage_loc,
             map: map,
             title: garage_name,
+            icon: image,
             i: i
         });
 
@@ -144,7 +158,6 @@ function initGraphs() {
         xaxis: {
             title: "Datum en tijd",
             showgrid: true
-            //tickformat: '%a %b-%e-%Y'
         },
         margin: {                           
             l: 50, b: 50, r: 0, t: 40
@@ -153,6 +166,3 @@ function initGraphs() {
 
     Plotly.plot(document.getElementById('graphs'), data, layout);
 }
-
-
-

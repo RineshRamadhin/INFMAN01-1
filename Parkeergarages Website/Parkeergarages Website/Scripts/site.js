@@ -114,11 +114,13 @@ function initGraphs() {
     var y = [];
 
     for (var i = 0; i < garage_info.feiten.length; i++) {
-        x.push(garage_info.feiten[i].vrije_plekken);
-        y.push(garage_info.feiten[i].datum);
-    }
+        y.push(garage_info.feiten[i].vrije_plekken);
 
-    console.log(y);
+        var datum = garage_info.feiten[i].datum;
+        datum = datum.replace('T', ' ');
+        datum = datum.slice(0, -1);
+        x.push(datum);
+    }
 
     var data = [{
         y: y,
@@ -127,14 +129,15 @@ function initGraphs() {
         uid: "40abaa"
     }];
     var layout = {
-        yaxis: { title: "Aantal vrije parkeerplekken"},      // set the y axis title
+        title: 'Historie',
+        yaxis: { title: "Aantal vrije parkeerplekken"},      
         xaxis: {
             title: "Datum en tijd",
-            showgrid: true,
-            tickformat: "%B, %Y"              // customize the date format to "month, day"
+            showgrid: true
+            //tickformat: '%a %b-%e-%Y'
         },
-        margin: {                           // update the left, bottom, right, top margin
-            l: 40, b: 10, r: 10, t: 20
+        margin: {                           
+            l: 50, b: 50, r: 0, t: 40
         }
     };
 
